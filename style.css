@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: blue;
+}
+#score{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#time{
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+}
+#desenhe{
+    font-size: 20px;
+    font-weight: bold;
+}
