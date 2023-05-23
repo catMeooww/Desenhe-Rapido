@@ -7,6 +7,7 @@ body{
 #score{
     font-size: 20px;
     margin-left: 20px;
+    float: left;
 }
 #time{
     font-size: 20px;
@@ -16,4 +17,16 @@ body{
 #desenhe{
     font-size: 20px;
     font-weight: bold;
+}
+canvas{
+    border:25px, solid, white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 10px 5px 5px rgb(3, 233, 33);}
+    to{box-shadow: -10px -5px rgb(17, 95, 240);}
 }
